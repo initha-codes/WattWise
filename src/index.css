@@ -1,0 +1,7 @@
+@import 'tailwindcss';
+:root { font-family: 'DM Sans', 'Segoe UI', sans-serif; color: #25332c; background: #f4f6f3; font-synthesis: none; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-optical-sizing: auto; --ink: #25332c; --muted: #7b8780; --line: #e7ebe7; --teal: #138f83; }
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 360px; min-height: 100vh; }
+button, input, select { font: inherit; }
+button:focus-visible, a:focus-visible, select:focus-visible, input:focus-visible { outline: 2px solid #128f83; outline-offset: 2px; }
+::selection { background: #cdece5; color: #17352f; }
